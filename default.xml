@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <default revision="refs/heads/jellybean"
+           remote="github"
+           sync-j="4" />
+
+  <project path="" name="Androlus/android_kernel_htc_msm8660" revision="android-msm-pyramid-3.0" />
+
+</manifest>
+
